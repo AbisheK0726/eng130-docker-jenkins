@@ -1,1 +1,3 @@
-# Test node app
+cd app
+npm install
+npm test
