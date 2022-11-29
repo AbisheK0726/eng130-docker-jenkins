@@ -58,7 +58,11 @@ To check if Kubernetes is installed, run the following command in the terminal:
 kubectl version 
 ```
 
-## Create a Kubernetes Deployment
+## Kubernetes Architecture
+
+![node](images/node.png)
+
+### Create a Kubernetes Deployment
 
 To create a Kubernetes deployment, you need to create a deployment configuration file. To do this, follow the steps below:
 
@@ -111,7 +115,7 @@ kubectl get deployments
 kubectl delete deployment nginx-deployment
 ```
 
-## Create a Kubernetes Service
+### Create a Kubernetes Service
 
 To create a Kubernetes service, you need to create a service configuration file. To do this, follow the steps below:
 
