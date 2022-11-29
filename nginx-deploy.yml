@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: abishek726/node-working:latest # Use this image from docker hub
+        image: abishek726/new-node-app:latest # Use this image from docker hub
         ports:
         - containerPort: 80
