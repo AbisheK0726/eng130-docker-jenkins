@@ -144,7 +144,7 @@ spec:
 2. Run the following command to create the service:
 
 ```bash
-kubectl apply -f service.yaml
+kubectl create -f service.yaml
 ```
 
 3. Run the following command to check the status of the service:
